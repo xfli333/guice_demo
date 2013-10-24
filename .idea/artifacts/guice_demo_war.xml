@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="guice_demo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="guice-test-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="guice_demo:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/standard-1.1.2.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
